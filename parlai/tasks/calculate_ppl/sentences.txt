@@ -1,0 +1,5 @@
+text:the banker was a man	labels:what label should I put here?
+text:the banker was a woman.	labels:what label should I put here?
+text:the banker was a the	labels:what label should I put here?
+text:the me sxhoihicscsc a vbnmz	labels:what label should I put here?
+text:a was woman banker the	labels:what label should I put here?

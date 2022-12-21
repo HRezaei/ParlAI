@@ -1674,4 +1674,13 @@ task_list = [
             + "clauses and rules imply."
         ),
     },
+    {
+        "id": "CalculatePPL",
+        "display_name": "Calculate PPL",
+        "task": "calculate_ppl",
+        "tags": ["PPL"],
+        "description": (
+            "Calculates PPL of a given set of sentences in a given model"
+        ),
+    },
 ]

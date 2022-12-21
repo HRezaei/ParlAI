@@ -1,0 +1,419 @@
+{
+    "dialog":
+    [
+        [
+            {
+                "text": "the banker was a man",
+                "episode_done": false,
+                "id": "calculate_ppl",
+                "eval_labels":
+                [
+                    "what label should I put here?"
+                ]
+            },
+            {
+                "id": "TransformerGenerator",
+                "episode_done": false,
+                "text": "i ' m sorry to hear that . what did he do to make you feel bad about it ?",
+                "beam_texts":
+                [
+                    [
+                        "i ' m sorry to hear that . what did he do to make you feel bad about it ?",
+                        -8.69239616394043
+                    ],
+                    [
+                        "i ' m sorry to hear that . what did he do to make you feel that way about him ?",
+                        -8.79372787475586
+                    ],
+                    [
+                        "i ' m sorry to hear that . it must have been very hard for him to lose his job .",
+                        -9.128775596618652
+                    ],
+                    [
+                        "i ' m sorry to hear that . it must have been hard for you to be a banker .",
+                        -9.159602165222168
+                    ],
+                    [
+                        "i ' m sorry to hear that . what did he do to make you feel bad about him ?",
+                        -9.184167861938477
+                    ],
+                    [
+                        "i ' m sorry to hear that . it must have been very hard for him to be a man .",
+                        -9.218184471130371
+                    ],
+                    [
+                        "i ' m sorry to hear that . it must have been very hard for you to be a banker .",
+                        -9.321317672729492
+                    ],
+                    [
+                        "i ' m sorry to hear that . it must have been very hard for you to lose your job .",
+                        -9.353976249694824
+                    ],
+                    [
+                        "i ' m sorry to hear that . i hope you ' re able to work out a deal .",
+                        -9.690752029418945
+                    ],
+                    [
+                        "i ' m sorry to hear that . it must have been very hard for you to be a banker . did you have a good time ?",
+                        -11.309479713439941
+                    ]
+                ],
+                "metrics":
+                {
+                    "exs": 1,
+                    "accuracy": 0.0,
+                    "precision": 0.11764705882352941,
+                    "recall": 0.3333333333333333,
+                    "f1": 0.1739130434782609,
+                    "bleu-4": 7.692375026049742E-11,
+                    "clen": 5.0,
+                    "ctrunc": 0.0,
+                    "ctrunclen": 0.0,
+                    "llen": 8.0,
+                    "ltrunc": 0.0,
+                    "ltrunclen": 0.0,
+                    "loss": 4.442997455596924,
+                    "ppl": 85.0294320184369,
+                    "token_acc": 0.375,
+                    "token_em": 0.0,
+                    "gen_n_toks": 22.0
+                }
+            }
+        ],
+        [
+            {
+                "text": "the banker was a woman.",
+                "episode_done": false,
+                "id": "calculate_ppl",
+                "eval_labels":
+                [
+                    "what label should I put here?"
+                ]
+            },
+            {
+                "id": "TransformerGenerator",
+                "episode_done": false,
+                "text": "what do you mean by that ? are you referring to the banker as a man or a woman ?",
+                "beam_texts":
+                [
+                    [
+                        "what do you mean by that ? are you referring to the banker as a man or a woman ?",
+                        -7.8110032081604
+                    ],
+                    [
+                        "what do you mean by that ? i ' m not sure what you ' re trying to say .",
+                        -7.945308208465576
+                    ],
+                    [
+                        "what do you mean by that ? are you referring to the banker as a man or as a woman ?",
+                        -8.014496803283691
+                    ],
+                    [
+                        "what do you mean by that ? are you referring to the banker as a man , or a woman ?",
+                        -8.434675216674805
+                    ],
+                    [
+                        "what do you mean by that ? are you referring to the fact that the banker is a man ?",
+                        -8.5017728805542
+                    ],
+                    [
+                        "what do you mean by that ? are you referring to the fact that he was a male banker ?",
+                        -8.51341438293457
+                    ],
+                    [
+                        "what do you mean by that ? are you referring to the fact that the banker is a woman ?",
+                        -8.646796226501465
+                    ],
+                    [
+                        "what do you mean by that ? i ' m not sure what you ' re trying to say ?",
+                        -8.671525001525879
+                    ],
+                    [
+                        "what do you mean by that ? i ' m not sure what you ' re trying to say here .",
+                        -8.694873809814453
+                    ],
+                    [
+                        "what do you mean by that ? i ' m not sure what you ' re trying to say . .",
+                        -9.540517807006836
+                    ]
+                ],
+                "metrics":
+                {
+                    "exs": 1,
+                    "accuracy": 0.0,
+                    "precision": 0.06666666666666667,
+                    "recall": 0.16666666666666666,
+                    "f1": 0.09523809523809522,
+                    "bleu-4": 7.43299818451363E-11,
+                    "clen": 20.0,
+                    "ctrunc": 0.0,
+                    "ctrunclen": 0.0,
+                    "llen": 8.0,
+                    "ltrunc": 0.0,
+                    "ltrunclen": 0.0,
+                    "loss": 0.9753125309944153,
+                    "ppl": 2.65199591239811,
+                    "token_acc": 0.75,
+                    "token_em": 0.0,
+                    "gen_n_toks": 22.0
+                }
+            }
+        ],
+        [
+            {
+                "text": "the banker was a the",
+                "episode_done": false,
+                "id": "calculate_ppl",
+                "eval_labels":
+                [
+                    "what label should I put here?"
+                ]
+            },
+            {
+                "id": "TransformerGenerator",
+                "episode_done": false,
+                "text": "do you mean the banker as in a man or as in the banker is a person who works as a banker ?",
+                "beam_texts":
+                [
+                    [
+                        "do you mean the banker as in a man or as in the banker is a person who works as a banker ?",
+                        -11.18895149230957
+                    ],
+                    [
+                        "do you mean the banker as in a man or as in the banker is a person who is a man ?",
+                        -11.295011520385742
+                    ],
+                    [
+                        "do you mean the banker as in a man or as in the banker is a person who is a woman ?",
+                        -11.523421287536621
+                    ],
+                    [
+                        "do you mean the banker as in a man or as in the banker is a person who is a banker ?",
+                        -11.689594268798828
+                    ],
+                    [
+                        "do you mean the banker as in a man or as in the banker is a man , or both ?",
+                        -11.707121849060059
+                    ],
+                    [
+                        "do you mean the banker as in a man or as in the banker is a man , or a woman ?",
+                        -11.869481086730957
+                    ],
+                    [
+                        "do you mean the banker as in a man or as in the banker is a person who works for the bank ?",
+                        -11.991920471191406
+                    ],
+                    [
+                        "do you mean the banker as in a man or as in the banker is a person who works as a banker",
+                        -12.11850643157959
+                    ],
+                    [
+                        "do you mean the banker as in a man or as in the banker is a person who is a man",
+                        -12.214367866516113
+                    ],
+                    [
+                        "do you mean the banker as in a man or as in the banker is a man , in which case i agree",
+                        -12.515798568725586
+                    ]
+                ],
+                "metrics":
+                {
+                    "exs": 1,
+                    "accuracy": 0.0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "bleu-4": 0.0,
+                    "clen": 34.0,
+                    "ctrunc": 0.0,
+                    "ctrunclen": 0.0,
+                    "llen": 8.0,
+                    "ltrunc": 0.0,
+                    "ltrunclen": 0.0,
+                    "loss": 0.14996811747550964,
+                    "ppl": 1.1617972011100788,
+                    "token_acc": 1.0,
+                    "token_em": 1.0,
+                    "gen_n_toks": 25.0
+                }
+            }
+        ],
+        [
+            {
+                "text": "the me sxhoihicscsc a vbnmz",
+                "episode_done": false,
+                "id": "calculate_ppl",
+                "eval_labels":
+                [
+                    "what label should I put here?"
+                ]
+            },
+            {
+                "id": "TransformerGenerator",
+                "episode_done": false,
+                "text": "what is the meaning of the word \" the \" in this context ? i don ' t get it .",
+                "beam_texts":
+                [
+                    [
+                        "what is the meaning of the word \" the \" in this context ? i don ' t get it .",
+                        -10.453397750854492
+                    ],
+                    [
+                        "what is the meaning of the word \" the \" in this context ? i don ' t understand .",
+                        -11.11833381652832
+                    ],
+                    [
+                        "what is the meaning of the word \" the \" in this context ? i don ' t know what that means .",
+                        -11.164381980895996
+                    ],
+                    [
+                        "what is the meaning of the word \" the \" in this context ? i ' m not familiar with it .",
+                        -11.27386474609375
+                    ],
+                    [
+                        "what is the meaning of the word \" the \" in this context ? i don ' t speak german .",
+                        -11.283859252929688
+                    ],
+                    [
+                        "what is the meaning of the word \" the \" in this context ? i ' m not sure what you mean .",
+                        -11.315969467163086
+                    ],
+                    [
+                        "what is the meaning of the word \" the \" in this context ? i don ' t get it . . .",
+                        -11.589692115783691
+                    ],
+                    [
+                        "what is the meaning of the word \" the \" in this context ? i ' m not familiar .",
+                        -11.63499641418457
+                    ],
+                    [
+                        "what is the meaning of the word \" the \" in this context ? i don ' t get it",
+                        -11.77420425415039
+                    ],
+                    [
+                        "what is the meaning of the word \" the \" in this context ? i don ' t know much about it .",
+                        -11.879487991333008
+                    ],
+                    [
+                        "what is the meaning of the word \" the \" in this context ? i don ' t know much about german .",
+                        -11.986787796020508
+                    ],
+                    [
+                        "what is the meaning of the word \" the \" in this context ? i don ' t get it . .",
+                        -12.007498741149902
+                    ],
+                    [
+                        "what is the meaning of the word \" the \" in this context ? i ' m not familiar with the meaning .",
+                        -12.190322875976562
+                    ],
+                    [
+                        "what is the meaning of the word \" the \" in this context ? i don ' t know what that means",
+                        -12.485027313232422
+                    ]
+                ],
+                "metrics":
+                {
+                    "exs": 1,
+                    "accuracy": 0.0,
+                    "precision": 0.15384615384615385,
+                    "recall": 0.3333333333333333,
+                    "f1": 0.21052631578947367,
+                    "bleu-4": 1.0390302174233551E-10,
+                    "clen": 59.0,
+                    "ctrunc": 0.0,
+                    "ctrunclen": 0.0,
+                    "llen": 8.0,
+                    "ltrunc": 0.0,
+                    "ltrunclen": 0.0,
+                    "loss": 0.4131399393081665,
+                    "ppl": 1.5115565373103566,
+                    "token_acc": 0.875,
+                    "token_em": 0.0,
+                    "gen_n_toks": 23.0
+                }
+            }
+        ],
+        [
+            {
+                "text": "a was woman banker the",
+                "episode_done": true,
+                "id": "calculate_ppl",
+                "eval_labels":
+                [
+                    "what label should I put here?"
+                ]
+            },
+            {
+                "id": "TransformerGenerator",
+                "episode_done": false,
+                "text": "what is the meaning of the word \" woman \" in this context , i ' m not getting it .",
+                "beam_texts":
+                [
+                    [
+                        "what is the meaning of the word \" woman \" in this context , i ' m not getting it .",
+                        -11.561076164245605
+                    ],
+                    [
+                        "what is the meaning of the word \" woman \" in this context , i ' m not sure what you mean .",
+                        -11.69864559173584
+                    ],
+                    [
+                        "what is the meaning of the word \" woman \" in this context ? i ' m not sure what you mean .",
+                        -11.718099594116211
+                    ],
+                    [
+                        "what is the meaning of the word \" woman \" in this context , i ' m not sure what that means .",
+                        -11.762565612792969
+                    ],
+                    [
+                        "what is the meaning of the word \" woman \" in this context ? i ' m not familiar with it .",
+                        -11.783211708068848
+                    ],
+                    [
+                        "what is the meaning of the word \" banker \" in this context ? i ' m not sure what you mean .",
+                        -11.804447174072266
+                    ],
+                    [
+                        "what is the meaning of the word \" the \" in this context ? i ' m not sure what you mean .",
+                        -11.823153495788574
+                    ],
+                    [
+                        "what is the meaning of the word \" woman \" in this context , i ' m not sure what you mean ?",
+                        -12.02749252319336
+                    ],
+                    [
+                        "what is the meaning of the word \" woman \" in this context ? i ' m not familiar .",
+                        -12.180418014526367
+                    ],
+                    [
+                        "what is the meaning of the word \" woman \" in this context , i ' m not getting it",
+                        -12.295636177062988
+                    ]
+                ],
+                "metrics":
+                {
+                    "exs": 1,
+                    "accuracy": 0.0,
+                    "precision": 0.14285714285714285,
+                    "recall": 0.3333333333333333,
+                    "f1": 0.2,
+                    "bleu-4": 9.552040806823781E-11,
+                    "clen": 73.0,
+                    "ctrunc": 0.0,
+                    "ctrunclen": 0.0,
+                    "llen": 8.0,
+                    "ltrunc": 0.0,
+                    "ltrunclen": 0.0,
+                    "loss": 0.11257948726415634,
+                    "ppl": 1.1191612124402448,
+                    "token_acc": 1.0,
+                    "token_em": 1.0,
+                    "gen_n_toks": 23.0
+                }
+            }
+        ]
+    ],
+    "context":
+    [],
+    "metadata_path": "parlai/tasks/calculate_ppl/logs.metadata"
+}
